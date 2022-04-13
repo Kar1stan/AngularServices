@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+<app-image></app-image>
+<div class="container">
+{{counter}}
+<button (click)="up()">Click me (UP)</button>
+<button (click)="down()">Click me (DOWN)</button>
+<div *ngSwitch="counter">
+    <p *ngSwitchCase="1">{{counter * 10}}</p>
+    <p *ngSwitchCase="2">{{counter * 100}}</p>
+    <p *ngSwitchDefault>{{counter * 1000}}</p>
+  </div>`
+<div *ngIf="percentage>0">
+    <p>{{percentage|percent}}</p>
+    <p>{{percentage|currency}}</p>
+</div>
+<div *ngFor="let green of money">{{green}}</div>
+<br>
+<div class="display">
+    {{text}}
+    <button (click)="addText()">AddText</button>
+</div>
+<p>This text is normal</p>
+<p [appZoom]="50">This text is larger</p>
