@@ -1,6 +1,6 @@
 # AngularServices
 
-Angular project with various services:
+Angular project with various services:logger,transportation and user.
 
 ## 💻 Pre-requisites
 
