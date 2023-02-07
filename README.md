@@ -1,6 +1,6 @@
-# AngularCurrency
+# AngularServices
 
-Angular project which converts USD to EUR dollars.
+Angular project with various services:
 
 ## 💻 Pre-requisites
 
@@ -13,8 +13,8 @@ Also delete package.lock file before you run your project.
 ### Git clone
 This will clone the project, install NPM packages and also the Cypres.io which is required to run the test. No Selenium Server is required.
 ```
-$ git clone https://github.com/Kar1stan/AngularCurrency.git
-$ cd AngularCurrency
+$ git clone https://github.com/Kar1stan/AngularServices.git
+$ cd Angular_Services
 $ npm install
 ```
 
